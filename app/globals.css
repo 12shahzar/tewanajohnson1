@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-macan), ui-sans-serif, system-ui, sans-serif;
+
+  --color-mint-light: #e0fcdc;
+  --color-mint-main: #b8f5b0;
+  --color-dark-bg: #1a1a1a;
+  --color-accent-yellow: #facc15;
+  --color-accent-red: #ef4444;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  padding: 0px ;
+  /* Prevent horizontal scroll from animations */
+}
+
+/* Ensure sections are not hidden behind fixed navbar when scrolling */
+section[id] {
+  scroll-margin-top: 130px;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
