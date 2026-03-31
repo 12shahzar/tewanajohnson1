@@ -19,7 +19,7 @@ export default function Footer() {
                 </div>
 
                 {/* Floating Contact Badge */}
-                <a
+                {/* <a
                     href="https://www.fiverr.com/tewana_j"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -34,7 +34,8 @@ export default function Footer() {
                         quality={100}
                         className="object-contain drop-shadow-lg"
                     />
-                </a>
+                </a> */}
+
             </div>
 
             <div className="w-full max-w-6xl mx-auto px-6 mt-12 text-center md:text-left text-[#FFFFFF] text-lg font-sans opacity-80">

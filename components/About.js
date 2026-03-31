@@ -89,21 +89,17 @@ export default function About() {
             className="text-[#787878] space-y-4 md:pl-10 font-semibold text-lg"
           >
             <p className="leading-relaxed">
-              My name is{" "}
-              <span className="font-bold text-[#19191C]">Tewana Johnson</span>.
-              I am a professional Logo designer and developer with over six
-              years of experience in the creative industry. I now work full-time
-              on Fiverr, helping new businesses build strong, professional
-              branding and supporting their growth through strategic design and
-              proven expertise.
+              {/* My name is{" "}
+              <span className="font-bold text-[#19191C]">Tewana Johnson</span>. */}
+              I’m a <span className="text-[#19191C] font-bold">Top Quality Fiverr Seller with 600+</span> successful projects, a <span className="text-[#19191C] font-bold">4.8★ rating,</span> and a <span className="text-[#19191C] font-bold">100% response rate.</span> Since 2018, I’ve been working in the IT sector with businesses of all sizes, delivering reliable and high-quality solutions. <span className="text-[#19191C] font-bold">I’m available 24/7,</span> supported by my close team to ensure smooth communication and timely delivery. I stay personally involved while managing projects professionally, so clients always feel supported. My work experience and client satisfaction speak for themselves. Let’s connect and see if I’m the right fit for your project.
             </p>
-            <p className="leading-relaxed">
+            {/* <p className="leading-relaxed">
               If you’re looking for high-quality branding and a reliable
               creative partner, I would be happy to work with you.{" "}
               <span className="font-bold text-gray-900">
                 Feel free to connect with me here on Fiverr.
               </span>
-            </p>
+            </p> */}
           </motion.div>
         </div>
 

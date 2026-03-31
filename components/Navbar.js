@@ -16,7 +16,7 @@ export default function Navbar() {
   const navLinks = [
     { name: "Home", href: "#home" },
     { name: "About Us", href: "#about" },
-    { name: "Services", href: "#services" },
+    // { name: "Services", href: "#services" },
     { name: "Portfolio", href: "#portfolio" },
   ];
 
@@ -53,7 +53,7 @@ export default function Navbar() {
         </div>
 
         {/* Right Side / CTA */}
-        <div className="hidden md:flex items-center ml-8">
+        <div className="hidden md:flex items-center gap-4 ml-8">
           <Link
             href="https://www.fiverr.com/tewana_j"
             target="_blank"
@@ -62,23 +62,46 @@ export default function Navbar() {
           >
             Visit My Profile
           </Link>
+          <Link
+            href="https://www.instagram.com/quee_nitservices24/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="transition-all transform hover:scale-110"
+          >
+            <Image
+              src="/assets/instaIcon.svg"
+              alt="Instagram"
+              width={40}
+              height={40}
+              className="object-contain"
+            />
+          </Link>
         </div>
 
-        {/* Mobile Menu Button */}
-        <button
-          className="md:hidden text-white ml-auto"
-          onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-        >
+        {/* Mobile View CTA and Icon */}
+        <div className="md:hidden flex items-center gap-3 ml-auto">
           <Link
             href="https://www.fiverr.com/tewana_j"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-[#01A95C] text-white px-6 py-3 rounded-2xl text-center text-sm font-semibold"
-            onClick={() => setIsMobileMenuOpen(false)}
+            className="bg-[#01A95C] text-white px-4 py-2 rounded-xl text-center text-sm font-semibold whitespace-nowrap"
           >
             Visit My Profile
-          </Link>{" "}
-        </button>
+          </Link>
+          <Link
+            href="https://www.instagram.com/quee_nitservices24/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image
+              src="/assets/instaIcon.svg"
+              alt="Instagram"
+              width={32}
+              height={32}
+              className="object-contain"
+            />
+          </Link>
+        </div>
       </div>
     </motion.nav>
   );

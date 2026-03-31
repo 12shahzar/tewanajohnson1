@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
+import Pillar from "../components/Pillar";
 import About from "../components/About";
 import Services from "../components/Services";
 import Portfolio from "../components/Portfolio";
@@ -11,7 +12,9 @@ export default function Home() {
       <Navbar />
       <Hero />
       <About />
-      <Services />
+      {/* <Services /> */}
+      <Pillar />
+
       <Portfolio />
       <Footer />
     </main>
