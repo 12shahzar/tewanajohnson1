@@ -98,7 +98,7 @@ export default function Hero() {
             />
 
             {/* Left Floating Card: Response Rate */}
-            <div className="absolute bottom-16 -left-4 md:bottom-24 md:-left-20 bg-white py-3 px-3 md:py-4 md:px-4 rounded-xl md:rounded-2xl shadow-[0_20px_40px_rgba(0,0,0,0.08)] w-[160px] md:w-[280px] transition-all font-sans">
+            <div className="hidden md:block absolute bottom-16 -left-4 md:bottom-24 md:-left-20 bg-white py-3 px-3 md:py-4 md:px-4 rounded-xl md:rounded-2xl shadow-[0_20px_40px_rgba(0,0,0,0.08)] w-[160px] md:w-[280px] transition-all font-sans">
               <div className="text-[10px] md:text-sm font-semibold text-[#19191C] mb-1">
                 Response rate
               </div>

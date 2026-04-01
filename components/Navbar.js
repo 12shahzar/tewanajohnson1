@@ -22,7 +22,7 @@ export default function Navbar() {
 
   return (
     <motion.nav
-      className="fixed top-[32px] left-0 right-0 z-50 flex justify-center px-4"
+      className="fixed top-[20px] left-0 right-0 z-50 flex justify-center px-4"
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.5 }}
