@@ -28,7 +28,7 @@ export default function WelcomeModal() {
           exit={{ opacity: 0 }}
         >
           <motion.div
-            className="bg-[#f8fcf9] md:bg-white rounded-[24px] md:rounded-[32px] w-full max-w-[850px] md:min-h-[480px] md:h-[520px] max-h-[95vh] relative overflow-y-auto overflow-x-hidden flex flex-col md:flex-row shadow-[0_0_60px_rgba(0,0,0,0.1)] font-sans"
+            className="bg-[#f8fcf9] md:bg-white rounded-[24px] md:rounded-[32px] w-full max-w-[850px] md:min-h-[480px] md:h-[520px] max-h-[95vh] relative overflow-hidden overflow-x-hidden flex flex-col md:flex-row shadow-[0_0_60px_rgba(0,0,0,0.1)] font-sans"
             initial={{ scale: 0.9, y: 20, opacity: 0 }}
             animate={{ scale: 1, y: 0, opacity: 1 }}
             exit={{ scale: 0.9, y: 20, opacity: 0 }}

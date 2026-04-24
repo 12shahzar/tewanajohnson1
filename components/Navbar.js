@@ -174,7 +174,7 @@ export default function Navbar() {
             exit={{ opacity: 0 }}
           >
             <motion.div
-              className="bg-white rounded-[24px] md:rounded-[32px] p-6 py-10 md:px-14 md:py-10 max-w-[850px] md:min-h-[480px] md:h-[520px] max-h-[95vh] w-full relative overflow-y-auto overflow-x-hidden font-sans border-0 shadow-[0_0_60px_rgba(0,0,0,0.1)] flex flex-col justify-center"
+              className="bg-white rounded-[24px] md:rounded-[32px] p-6 py-10 md:px-14 md:py-10 max-w-[850px] md:min-h-[480px] md:h-[520px] max-h-[95vh] w-full relative overflow-hidden overflow-x-hidden font-sans border-0 shadow-[0_0_60px_rgba(0,0,0,0.1)] flex flex-col justify-center"
               initial={{ scale: 0.9, y: 20, opacity: 0 }}
               animate={{ scale: 1, y: 0, opacity: 1 }}
               exit={{ scale: 0.9, y: 20, opacity: 0 }}
@@ -233,7 +233,7 @@ export default function Navbar() {
                       id="email"
                       required
                       className="w-full bg-[#f4f4f5] border-none rounded-xl px-4 py-3.5 text-gray-800 placeholder-gray-500 focus:outline-none focus:ring-1 focus:ring-[#2ecc71]/50 transition-all font-sans text-[14px]"
-                      placeholder="johnsoncocreative@.com"
+                      placeholder="johnsoncocreative@gmail.com"
                     />
                   </div>
                   <div>
